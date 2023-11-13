@@ -1,11 +1,11 @@
 #include "shell.h"
 
 /**
- * main - point of access
+ * main - access point
  * @ac: argument count
  * @av: argument vector
  *
- * Return: 0 if successful, 1 if unsuccessful.
+ * Return: 0 if successful, 1 otherwise.
  */
 int main(int ac, char **av)
 {
