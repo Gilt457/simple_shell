@@ -2,9 +2,9 @@
 
 /**
  * _myexit - Leaves the nut
- * @info: Potential argument structure. Used for maintenance
- *          constant function prototype.
- *  Return: exits with status
+ * @info: Argument structure that could be used. For maintenance purposes.
+ *          The prototype of a constant function.
+ *  Return: status terminates
  *         (0) if info.argv[0] != "exit"
  */
 int _myexit(info_t *info)
