@@ -13,8 +13,8 @@ void clear_info(info_t *info)
 }
 
 /**
- * set_info - creates the info_t struct
- * @info: struct reference
+ * set_info - generates the info_t structure
+ * @info: struct citation
  * @av: vector of argument
  */
 void set_info(info_t *info, char **av)
@@ -47,7 +47,7 @@ void set_info(info_t *info, char **av)
 /**
  * free_info - frees info_t struct fields
  * @info: struct reference
- * @all: true if all fields are freed
+ * @all: true if all fields have been freed
  */
 void free_info(info_t *info, int all)
 {
