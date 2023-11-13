@@ -1,8 +1,8 @@
 #include "shell.h"
 
 /**
- * get_environ - copies our environment as a string array
- * @info: Potential argument structure. Used for maintenance
+ * get_environ - our environment is copied as a string array
+ * @info: Argument structure that could be used. For maintenance purposes.
  *          constant_function prototype.
  * Return: Always 0
  */
@@ -50,7 +50,7 @@ int _unsetenv(info_t *info, char *var)
 }
 
 /**
- * _setenv - Create a new environment variable,
+ * _setenv - Make a new contextual variable.
  *             or alter a current one
  * @info: Potential argument structure. Used for maintenance
  *        constant_function prototype.
