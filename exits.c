@@ -2,10 +2,10 @@
 
 /**
  **_strncpy - copy string
- *@dest: the string that will be copied to
+ *@dest: the string to which the copy will be made
  *@src: the source text
- *@n: the quantity of characters to be duplicated
- *Return: the phrase concatenated
+ *@n: the number of characters that will be duplicated
+ *Return: concatenated phrase
  */
 char *_strncpy(char *dest, char *src, int n)
 {
