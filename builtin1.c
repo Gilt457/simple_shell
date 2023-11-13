@@ -1,9 +1,9 @@
 #include "shell.h"
 
 /**
- * _myhistory - lists history commands by line, preceded
+ * _myhistory - history commands are listed by line and are prefixed by
  *              Line numbers begin at 0.
- * @info: Potential argument structure. Used for maintenance
+ * @info: Argument structure that could be used. For maintenance purposes.
  *        constant_function prototype.
  *  Return: Always 0
  */
@@ -58,7 +58,7 @@ int set_alias(info_t *info, char *str)
 }
 
 /**
- * print_alias - outputs the alias string
+ * print_alias - returns the alias string
  * @node: alias node
  *
  * Return: Always 0 on thriving, 1 on mistake.
