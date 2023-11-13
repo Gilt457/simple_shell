@@ -3,7 +3,7 @@
 /**
  * _strcpy - a string is copied
  * @dest: the endpoint
- * @src: the originator
+ * @src: the creator
  *
  * Return: endpoint pointer
  */
@@ -46,8 +46,8 @@ char *_strdup(const char *str)
 }
 
 /**
- *_puts - outputs an input string
- *@str: the string that gets shown
+ *_puts - generates an input string
+ *@str: the string that is displayed
  *
  * Return: Nothing
  */
