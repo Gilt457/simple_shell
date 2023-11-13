@@ -1,11 +1,11 @@
 #include "shell.h"
 
 /**
- * hsh - the main shell loop
- * @info: the parameter and return data struct
+ * hsh - the primary shell loop
+ * @info: the data structs for parameters and returns
  * @av: the main() parameter vector
  *
- * Return: 0 for success, 1 for failure, or an error
+ * Return: Success: 0, failure: 1, error:
  */
 int hsh(info_t *info, char **av)
 {
