@@ -1,9 +1,9 @@
 #include "shell.h"
 
 /**
- * _erratoi - The string is converted to an integer.
- * @s: the phrase requiring conversion
- * Return: 0 if string has no numbers, converted number else
+ * _erratoi - An integer is generated from the string.
+ * @s: the phrase that needs to be converted
+ * Return: 0 if string has no numbers, number else
  *       -1 on error
  */
 int _erratoi(char *s)
