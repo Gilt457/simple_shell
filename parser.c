@@ -1,8 +1,8 @@
 #include "shell.h"
 
 /**
-* is_cmd - checks whether a file contains a running command.
- * @info: the data structure
+* is_cmd - Determines whether a file includes a running command.
+ * @info: the data layout
  * @path: the file's path
  *
  * Return: If true, 1; if not 0.
@@ -23,9 +23,9 @@ int is_cmd(info_t *info, char *path)
 }
 
 /**
- * dup_chars - character repetition
+ * dup_chars - character recurrence
  * @pathstr: The PATH parameter
- * @start: commencing index
+ * @start: starting index
  * @stop: halting index
  *
  * Return: new buffer pointer
@@ -43,10 +43,10 @@ char *dup_chars(char *pathstr, int start, int stop)
 }
 
 /**
- * find_path - locates this command in the PATH array.
- * @info: the data structure
+ * find_path - This command is found in the PATH array.
+ * @info: the data layout
  * @pathstr: the PATH variable
- * @cmd: the command to locate
+ * @cmd: the command to find
  *
  * Return: entire cmd path if available or NULL
  */
