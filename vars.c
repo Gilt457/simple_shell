@@ -1,10 +1,10 @@
 #include "shell.h"
 
 /**
- * is_chain - check buffer char for chain delimeter
- * @info: parameter structure
+ * is_chain - check chain delimeter buffer char
+ * @info: parameter setup
  * @buf: the character buffer
- * @p: current location in buf address
+ * @p: current buf address location
  *
  * Return: Chain delimeter = 1, else 0
  */
@@ -141,10 +141,10 @@ int replace_vars(info_t *info)
 
 /**
  * replace_string - string substitution
- * @old: address of the previous string
+ * @old: the previous string's address
  * @new: new string
  *
- * Return: If replaced, 1; else 0.
+ * Return: If replaced, 1; otherwise, 0.
  */
 int replace_string(char **old, char *new)
 {
