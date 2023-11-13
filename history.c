@@ -1,10 +1,10 @@
 #include "shell.h"
 
 /**
- * get_history_file - Retrieves the history file.
+ * get_history_file - Gets the history file.
  * @info: struct parameters
  *
- * Return: assigned string containing history file
+ * Return: a string holding the history file
  */
 
 char *get_history_file(info_t *info)
@@ -125,7 +125,7 @@ int build_history_list(info_t *info, char *buf, int linecount)
 
 /**
  * renumber_history - Renames history linked list after revisions
- * @info: Potential argument structure. Used for maintenance
+ * @info: Argument structure that could be used. For maintenance purposes.
  *
  * Return: the new count
  */
