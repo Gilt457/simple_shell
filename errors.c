@@ -1,8 +1,8 @@
 #include "shell.h"
 
 /**
- *_eputs - outputs the input phrase
- * @str: the text to be displayed
+ *_eputs - returns the input phrase
+ * @str: the text that will be displayed
  *
  * Return: Nothing
  */
@@ -67,7 +67,7 @@ int _putfd(char c, int fd)
 /**
  *_putsfd - print input string
  * @str: string to print
- * @fd: Write to filedescriptor
+ * @fd: Interact with filedescriptor
  *
  * Return: amount of characters
  */
