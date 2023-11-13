@@ -1,8 +1,8 @@
 #include "shell.h"
 
 /**
- * input_buf - commands chained buffers
- * @info: struct parameters
+ * input_buf - buffers chained commands
+ * @info: parameters of a structure
  * @buf: a buffer's address
  * @len: var len's address
  *
@@ -112,7 +112,7 @@ ssize_t read_buf(info_t *info, char *buf, size_t *i)
 /**
  * _getline - STDIN's next line of input is retrieved.
  * @info: struct parameters
- * @ptr: address of preallocated or NULL buffer pointer
+ * @ptr: preallocated or NULL buffer pointer address
  * @length: preallocated ptr buffer size if not NULL
  *
  * Return: s
