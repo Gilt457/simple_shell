@@ -1,10 +1,10 @@
 #include "shell.h"
 
 /**
- **_memset - uses an invariant byte to load memory.
- *@s: the memory area's pointer
+ **_memset - Loads memory with an invariant byte.
+ *@s: the pointer to the memory space
  *@b: the byte with which to populate *s
- *@n: the number of bytes that must be loaded
+ *@n: the amount of data that must be loaded
  *Return: (s) A link to the memory area s
  */
 char *_memset(char *s, char b, unsigned int n)
