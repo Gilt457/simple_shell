@@ -1,8 +1,8 @@
 #include "shell.h"
 
 /**
- * _myenv - displays the present environment
- * @info: Potential argument structure. Used for maintenance
+ * _myenv - displays the current situation
+ * @info:Argument structure that could be used. For maintenance purposes.
  *          constant_function prototype.
  * Return: Always 0
  */
@@ -75,7 +75,7 @@ int _myunsetenv(info_t *info)
 }
 
 /**
- * populate_env_list - Builds the env linked list
+ * populate_env_list - Creates the env linked list.
  * @info: Potential argument structure. Used for maintenance
  *          constant_function prototype.
  * Return: Always 0
