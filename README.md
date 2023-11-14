@@ -1,4 +1,4 @@
-<centre><h1>0x16. C - Simple Shell</h1></centre>
+                                  <h1>0x16. C - Simple Shell</h1>
 
 <h1>Description</h1>
 
