@@ -20,6 +20,6 @@ Simply run the application in interactive mode and allow for the response to arr
 
 To execute the desired command in non-interactive mode, echo it and pipe it into the program as follows:
 
-                              <h1>echo "ls" | ./shell</h1>
+                                echo "ls" | ./shell
 
 In non-interactive mode, the application will terminate once the specified command has been completed.
