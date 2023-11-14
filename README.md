@@ -1,4 +1,4 @@
-                                  <h1>0x16. C - Simple Shell</h1>
+ <h1>0x16. C - Simple Shell</h1>
 
 <h1>Description</h1>
 
@@ -20,6 +20,6 @@ Simply run the application in interactive mode and allow for the response to arr
 
 To execute the desired command in non-interactive mode, echo it and pipe it into the program as follows:
 
-echo "ls" | ./shell
+                              <h1>echo "ls" | ./shell</h1>
 
 In non-interactive mode, the application will terminate once the specified command has been completed.
