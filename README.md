@@ -2,24 +2,28 @@
 
 <h1>Description</h1>
 
-An uncomplicated UNIX command interpreter that carries out the operations of the basic shell (sh). In addition, additional functions are provided. The entire C code for this program was developed as an important assignment for ALX Africa Software Engineering.
+The Simple Shell assignment serves as a pivotal milestone within the ALX Software Engineering curriculum, providing students with an introduction to the complexities of shell functionality and system programming. Students are tasked with creating a rudimentary Unix-like shell that emulates the fundamental characteristics of a command-line interface as part of this endeavor.
 
-<h1>Setting up</h1>
+<h1>Project Objectives:</h1>
 
-This repository should be cloned to the working directory. Files ought to be built with GCC and using the following parameters for optimal performance: pedantic -wall -Wextra -Werror -std=gnu89
+1) The understanding of process management is emphasized in this undertaking through the utilization of the fork() and exec() system calls to initiate and execute processes.
 
-<h1>Application</h1>
+2) Acquiring Proficiency in Input/Output Operations: Learners acquire practical knowledge and skills in managing user input, deciphering commands, and engaging with the underlying operating system.
 
-Following compilation, the final program can be executed standalone, either interactively or non-interactively.
+3) The successful completion of the project necessitates the creation of fundamental shell capabilities, including but not limited to command history, environment variable administration, and file manipulation.
 
-<h1>Mode of Interaction</h1>
+4) Debugging and Error Handling: Students acquire the ability to recognize and gracefully manage errors, thereby guaranteeing the resilience of their shell implementation.
 
-Simply run the application in interactive mode and allow for the response to arrive. From there, you can freely type commands, departing with the "exit" command or ctrl-D.
 
-<h1>Mode Without Interaction</h1>
+<h1>Key Features of the Simple Shell:</h1>
 
-To execute the desired command in non-interactive mode, echo it and pipe it into the program as follows:
+1) Command Interpretation: The shell is responsible for deciphering and carrying out user-entered commands by parsing them into comprehensible parameters.
 
-                                echo "ls" | ./shell
+2) Integrated Commands: The shell ought to incorporate a collection of integrated commands, including echo, env, and cd, which furnish fundamental shell functionalities.
 
-In non-interactive mode, the application will terminate once the specified command has been completed.
+3) File Management: The shell ought to incorporate functionalities that enable users to perform various operations on files, such as creating, viewing, writing, and deleting.
+
+4) The shell is responsible for the management of environment variables, enabling users to both set and retrieve values from the environment.
+
+5) Error Handling: In order to prevent program failures and ensure appropriate error messages are displayed, the shell should handle errors in a graceful manner.
+
